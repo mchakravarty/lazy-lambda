@@ -1,0 +1,43 @@
+-- Haskell Playground 1.0
+lazyLambda  
+
+
+
+
+
+
+
+
+
+
+
+
+
+bird1Texture
+
+
+
+bird2Texture
+
+
+
+bird3Texture
+
+
+
+spriteWithTexture groundTexture
+
+
+
+
+
+spriteWithTexture skyTexture
+
+
+
+node skySprites
+
+
+
+spriteWithTexture pipeDownTexture 
+spriteWithTexture pipeUpTexture

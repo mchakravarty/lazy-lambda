@@ -1,0 +1,41 @@
+name: LazyLambda
+version: 1.0
+cabal-version: 1.11
+build-type: Simple
+license: MIT
+license-file: LICENSE.md
+copyright: 2016 Applicative
+stability: experimental
+synopsis: A Flappy Bird clone
+description:
+    This project was inspired by https://github.com/fullstackio/FlappySwift and is also based on the graphics assets of the Swift version.
+category: Games
+author: Manuel M T Chakravarty
+data-files:
+    scoreboard.png
+    Sky.png
+    PipeUp.png
+    Land.png
+    Bird-01.png
+    Bird-02.png
+    Bird-03.png
+    LICENSE.md
+    PipeDown.png
+x-ghc-framework-version: 7.10.3-5.9-2
+x-last-ide-version: HfM1.3.0
+Executable LazyLambda
+  main-is: LazyLambda.hs
+  buildable: True
+  build-depends:
+      base -any,
+      spritekit -any,
+      random -any,
+      pipes -any
+  other-modules:
+      Constants
+      Random
+      GameState
+      Actions
+      Pipes
+      Convenience
+      Scenery
