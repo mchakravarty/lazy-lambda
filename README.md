@@ -6,4 +6,4 @@ Lazy Lambda is a clone of Flappy Bird in Haskell based on the [Haskell SpriteKit
 
 >  https://speakerdeck.com/mchakravarty/playing-with-graphics-and-animations-in-haskell
   
-For the best Haskell SpriteKit development experience, check out [Haskell for Mac](http://haskellformac.com). The Lazy Lambda project in this repository is wrapped into a Haskell for Mac project.
+For the best Haskell SpriteKit development experience, check out [Haskell for Mac](http://haskellformac.com). The Lazy Lambda code in this repository already comes in the form of a Haskell for Mac project.
